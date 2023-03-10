@@ -10,12 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
 </head>
 <body>
-    <main>
+    <main> 
 
-        <div class="carrosel">
-            <img class="imagem" src="./src/imagens/tlou-1.jpg" alt="ellie e joel juntos">
+        <div class="carrossel">
+            <img class="imagem ativa" src="./src/imagens/tlou-1.jpg" alt="ellie e joel juntos">
 
             <img class="imagem" src="./src/imagens/tlou-2.jpg" alt="personagens tlous">
 
@@ -30,15 +34,15 @@
 
         <div class ="conteudo">
             <div class="informacoes">
-                <img src="./src/imagens/logo.png" alt="logo The Last of Us">
+                <img class = "logo" src="./src/imagens/logo.png" alt="logo The Last of Us">
 
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ex maiores consequatur consectetur laboriosam est distinctio, porro laborum tenetur nulla illum iste? Eligendi accusamus itaque necessitatibus dignissimos placeat? Suscipit, quae.
+                <p class ="descricao">
+                    The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada por Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção.
                 </p>
             </div>
             
             <div class="botoes-carrossel">
-                <button class = "botao"></button>
+                <button class = "botao selecionado"></button>
                 <button class = "botao"></button>
                 <button class = "botao"></button>
                 <button class = "botao"></button>
@@ -50,12 +54,10 @@
         <aside class="menu-lateral">
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/pedro-reis-559456266/" target="_blank">Linkedin</a>
-                        <img src="./src/imagens/linkedin-in.svg" alt="ícone linkedin" class="icone">
+                    <img src="./src/imagens/linkedin-in.svg" alt="ícone linkedin" class="icone">
                 </li>
                 <li>
-                    <a href="https://github.com/PedroVMR" target="_blank">Github</a>
-                        <img src="./src/imagens/github.svg" alt="ícone github" class="icone">
+                    <img src="./src/imagens/github.svg" alt="ícone github" class="icone">
                 </li>
             </ul>
         </aside>

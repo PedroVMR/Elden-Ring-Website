@@ -11,7 +11,7 @@ main:after{
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 99%);
     z-index: -1;
 
 }
@@ -27,8 +27,7 @@ main:after{
 
 .informacoes .logo{
     max-width: 350px;
-    filter: invert(1);
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .informacoes .descricao{
@@ -55,7 +54,7 @@ main:after{
 }
 
 .botoes-carrossel .botao.selecionado {
-    background-color: #1d8346;
+    background-color: #b79458;
 }
 
 .menu-lateral{
